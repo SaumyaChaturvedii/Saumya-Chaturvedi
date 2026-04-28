@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Saumya Chaturvedi — AI &amp; ML Developer</title>
+    <meta name="description"
+        content="Portfolio of Saumya Chaturvedi, B.Tech CSE (AI &amp; ML) student building intelligent systems through Computer Vision and Python.">
+    <meta name="theme-color" content="#080808">
+    <meta name="color-scheme" content="dark">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="styles.css?v=5">
+    <link rel="stylesheet" href="responsive-fix.css?v=5">
+    <link rel="preload" href="profile-optimized.webp" as="image" type="image/webp" fetchpriority="high">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,700;1,900&family=Unbounded:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    
+    <!-- OpenGraph SEO Setup -->
+    <meta property="og:title" content="Saumya Chaturvedi">
+    <meta property="og:description" content="Portfolio of Saumya Chaturvedi, B.Tech CSE (AI & ML) student building intelligent systems through Computer Vision and Python.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://saumyachaturvedii.github.io/">
+    <meta property="og:image" content="profile-optimized.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Saumya Chaturvedi">
+    <meta name="twitter:description" content="Portfolio of Saumya Chaturvedi, B.Tech CSE (AI & ML) student building intelligent systems through Computer Vision and Python.">
+    <meta name="twitter:image" content="profile-optimized.webp">
+    <!-- SVG Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>S</text></svg>">
+</head>
+
+<body>
+    <!-- ── FALLBACK NO-JS SUPPORT ── -->
+    <noscript>
+        <style>
+            #loader { display: none !important; }
+            main .section, .tech-carousel-section { position: relative !important; top: auto !important; opacity: 1 !important; transform: none !important; filter: none !important; visibility: visible !important; }
+            .reveal { opacity: 1 !important; transform: none !important; }
+        </style>
+    </noscript>
+
+    <!-- ── LOADER ── -->
+    <div id="loader">
+        <div class="loader-inner">
+            <p class="loader-text">SC<span class="loader-dot">.</span></p>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── PARTICLE CANVAS (fixed, behind everything) ── -->
+    <canvas id="particle-canvas"></canvas>
+    <div class="mobile-mountains" aria-hidden="true">
+        <span class="mobile-mountain-layer layer-back"></span>
+        <span class="mobile-mountain-layer layer-mid"></span>
+        <span class="mobile-mountain-layer layer-front"></span>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         HERO — PREMIUM SPLIT SCREEN
+    ══════════════════════════════════════ -->
+    <section id="home" class="hero">
+
+        <!-- LEFT — full-bleed portrait photo -->
+        <div class="hero-left">
+            <img src="profile-optimized.webp" alt="Saumya Chaturvedi" class="hero-portrait" id="profileImg" fetchpriority="high" decoding="async">
+            <div class="hero-img-overlay"></div>
+            <span class="profile-badge">AI &amp; ML Developer</span>
+        </div>
+
+        <!-- RIGHT — content panel -->
+        <div class="hero-right">
+
+            <!-- Top bar: social icons + hamburger -->
+            <div class="hero-topbar">
+                <div class="hero-social">
+                    <a href="https://github.com/SaumyaChaturvedii" target="_blank" aria-label="GitHub"
+                        class="social-icon-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/saumya-chaturvedi" target="_blank" aria-label="LinkedIn"
+                        class="social-icon-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com/saumya.chaturvedii" target="_blank" aria-label="Instagram"
+                        class="social-icon-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@saumya.chaturvedii" target="_blank" aria-label="YouTube"
+                        class="social-icon-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                        </svg>
+                    </a>
+                </div>
+                <button class="hero-menu-btn" id="hamburger" aria-label="Menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+
+            <!-- Mobile nav overlay (inside hero-right) -->
+            <nav class="mobile-nav" id="mobileNav">
+                <div class="mobile-nav-inner">
+                    <div class="mobile-nav-head">
+                        <div class="mobile-nav-brand">
+                            <span class="mobile-nav-logo">SC.</span>
+                            <p>AI &amp; ML Developer</p>
+                        </div>
+                        <button class="close-menu-btn" id="mobileNavClose" aria-label="Close menu">
+                            <span></span><span></span>
+                        </button>
+                    </div>
+
+                    <ul class="mobile-nav-list">
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#skills" class="nav-link">Skills</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#journey" class="nav-link">Journey</a></li>
+                        <li><a href="#creative" class="nav-link">Creative</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+
+                    <div class="mobile-nav-meta">
+                        <a href="https://github.com/SaumyaChaturvedii" target="_blank" class="mobile-nav-chip">GitHub</a>
+                        <a href="https://linkedin.com/in/saumya-chaturvedi" target="_blank" class="mobile-nav-chip">LinkedIn</a>
+                        <a href="Saumya_Chaturvedi_Resume.pdf" download="Saumya_Chaturvedi_Resume.pdf" class="mobile-nav-chip">Resume</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Centre content -->
+            <div class="hero-center">
+                <div class="hero-text-content">
+                    <p class="hero-greeting">AI &amp; ML Developer</p>
+                    <h1 class="hero-headline">Saumya<br>Chaturvedi</h1>
+                    <div class="hero-typer">
+                        <span class="typer-prefix">I'm</span>
+                        <span class="typer-text" id="typing-text"></span>
+                        <span class="typer-cursor"></span>
+                    </div>
+                </div>
+                <a href="#contact" class="hero-cta-circle">Contact<br>Me</a>
+            </div>
+
+            <!-- Bottom pill buttons -->
+            <div class="hero-bottom-btns">
+                <a href="#projects" class="hero-pill-btn">View My Projects</a>
+                <a href="Saumya_Chaturvedi_Resume.pdf" class="hero-pill-btn" id="downloadCV" download="Saumya_Chaturvedi_Resume.pdf">Download CV</a>
+            </div>
+
+        </div><!-- /hero-right -->
+    </section>
+
+    <!-- ══════════════════════════════════════
+         FLOATING NAVBAR (scrolled state)
+    ══════════════════════════════════════ -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <div class="nav-indicator" id="navIndicator"></div>
+            <a href="#home" class="logo">SC.</a>
+            <span class="mobile-nav-current" id="mobileNavCurrent">Home</span>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#journey" class="nav-link">Journey</a></li>
+                <li><a href="#creative" class="nav-link">Creative</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger2" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ══════════════════════════════════════
+             TECH STACK CAROUSEL
+        ══════════════════════════════════════ -->
+        <div class="tech-carousel-section reveal">
+            <div class="carousel-header">
+                <span class="carousel-label">TECH STACK</span>
+                <div class="carousel-line"></div>
+            </div>
+            <div class="carousel-viewport">
+                <div class="carousel-track" id="carouselTrack">
+
+                    <!-- SET 1 -->
+                    <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank" class="tech-card"
+                        data-glow="#e34c26" title="HTML">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                alt="HTML"><span>HTML</span></div>
+                    </a>
+                    <a href="https://developer.mozilla.org/docs/Web/CSS" target="_blank" class="tech-card"
+                        data-glow="#264de4" title="CSS">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                alt="CSS"><span>CSS</span></div>
+                    </a>
+                    <a href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank" class="tech-card"
+                        data-glow="#f7df1e" title="JavaScript">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                alt="JavaScript"><span>JavaScript</span></div>
+                    </a>
+                    <a href="https://www.python.org" target="_blank" class="tech-card" data-glow="#3572A5"
+                        title="Python">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python"><span>Python</span></div>
+                    </a>
+                    <a href="https://isocpp.org" target="_blank" class="tech-card" data-glow="#00599C" title="C++">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                                alt="C++"><span>C++</span></div>
+                    </a>
+                    <a href="https://www.java.com" target="_blank" class="tech-card" data-glow="#f89820" title="Java">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                alt="Java"><span>Java</span></div>
+                    </a>
+                    <a href="https://opencv.org" target="_blank" class="tech-card" data-glow="#5C3EE8" title="OpenCV">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+                                alt="OpenCV"><span>OpenCV</span></div>
+                    </a>
+                    <a href="https://numpy.org" target="_blank" class="tech-card" data-glow="#4dabcf" title="NumPy">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                                alt="NumPy"><span>NumPy</span></div>
+                    </a>
+                    <a href="https://git-scm.com" target="_blank" class="tech-card" data-glow="#f05032" title="Git">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                                alt="Git"><span>Git</span></div>
+                    </a>
+                    <a href="https://code.visualstudio.com" target="_blank" class="tech-card" data-glow="#007acc"
+                        title="VS Code">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                                alt="VS Code"><span>VS Code</span></div>
+                    </a>
+                    <a href="https://github.com/SaumyaChaturvedii" target="_blank" class="tech-card" data-glow="#ffffff"
+                        title="GitHub">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="GitHub"><span>GitHub</span></div>
+                    </a>
+                    <a href="https://www.linux.org" target="_blank" class="tech-card" data-glow="#fcc624" title="Linux">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                                alt="Linux"><span>Linux</span></div>
+                    </a>
+                    <a href="https://www.youtube.com/@saumya.chaturvedii" target="_blank" class="tech-card"
+                        data-glow="#ffffff" title="YouTube">
+                        <div class="tech-card-inner">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
+                            <span>YouTube</span>
+                        </div>
+                    </a>
+                    <a href="https://www.adobe.com/products/premiere.html" target="_blank" class="tech-card"
+                        data-glow="#9999FF" title="Premiere Pro">
+                        <div class="tech-card-inner">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <rect width="24" height="24" rx="4" fill="#00005B"/>
+                                <text x="5" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#9999FF">Pr</text>
+                            </svg>
+                            <span>Premiere</span>
+                        </div>
+                    </a>
+                    <a href="https://www.adobe.com/products/photoshop.html" target="_blank" class="tech-card"
+                        data-glow="#31A8FF" title="Photoshop">
+                        <div class="tech-card-inner">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <rect width="24" height="24" rx="4" fill="#001E36"/>
+                                <text x="5" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#31A8FF">Ps</text>
+                            </svg>
+                            <span>Photoshop</span>
+                        </div>
+                    </a>
+                    <a href="https://www.adobe.com/products/aftereffects.html" target="_blank" class="tech-card"
+                        data-glow="#9999FF" title="After Effects">
+                        <div class="tech-card-inner">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <rect width="24" height="24" rx="4" fill="#00005B"/>
+                                <text x="5" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#9999FF">Ae</text>
+                            </svg>
+                            <span>After Effects</span>
+                        </div>
+                    </a>
+                    <a href="https://www.adobe.com/products/animate.html" target="_blank" class="tech-card"
+                        data-glow="#FF6DD3" title="Animate">
+                        <div class="tech-card-inner">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <rect width="24" height="24" rx="4" fill="#1F0025"/>
+                                <text x="5" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#FF6DD3">An</text>
+                            </svg>
+                            <span>Animate</span>
+                        </div>
+                    </a>
+
+                    <!-- SET 2 (duplicate for seamless loop) -->
+                    <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank" class="tech-card"
+                        data-glow="#e34c26" title="HTML">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                alt="HTML"><span>HTML</span></div>
+                    </a>
+                    <a href="https://developer.mozilla.org/docs/Web/CSS" target="_blank" class="tech-card"
+                        data-glow="#264de4" title="CSS">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                alt="CSS"><span>CSS</span></div>
+                    </a>
+                    <a href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank" class="tech-card"
+                        data-glow="#f7df1e" title="JavaScript">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                alt="JavaScript"><span>JavaScript</span></div>
+                    </a>
+                    <a href="https://www.python.org" target="_blank" class="tech-card" data-glow="#3572A5"
+                        title="Python">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python"><span>Python</span></div>
+                    </a>
+                    <a href="https://isocpp.org" target="_blank" class="tech-card" data-glow="#00599C" title="C++">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                                alt="C++"><span>C++</span></div>
+                    </a>
+                    <a href="https://www.java.com" target="_blank" class="tech-card" data-glow="#f89820" title="Java">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                alt="Java"><span>Java</span></div>
+                    </a>
+                    <a href="https://opencv.org" target="_blank" class="tech-card" data-glow="#5C3EE8" title="OpenCV">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+                                alt="OpenCV"><span>OpenCV</span></div>
+                    </a>
+                    <a href="https://numpy.org" target="_blank" class="tech-card" data-glow="#4dabcf" title="NumPy">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                                alt="NumPy"><span>NumPy</span></div>
+                    </a>
+                    <a href="https://git-scm.com" target="_blank" class="tech-card" data-glow="#f05032" title="Git">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                                alt="Git"><span>Git</span></div>
+                    </a>
+                    <a href="https://code.visualstudio.com" target="_blank" class="tech-card" data-glow="#007acc"
+                        title="VS Code">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                                alt="VS Code"><span>VS Code</span></div>
+                    </a>
+                    <a href="https://github.com/SaumyaChaturvedii" target="_blank" class="tech-card" data-glow="#ffffff"
+                        title="GitHub">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="GitHub"><span>GitHub</span></div>
+                    </a>
+                    <a href="https://www.linux.org" target="_blank" class="tech-card" data-glow="#fcc624" title="Linux">
+                        <div class="tech-card-inner"><img loading="lazy"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                                alt="Linux"><span>Linux</span></div>
+                    </a>
+                    <a href="https://www.youtube.com/@saumya.chaturvedii" target="_blank" class="tech-card"
+                        data-glow="#ffffff" title="YouTube">
+                        <div class="tech-card-inner">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
+                            <span>YouTube</span>
+                        </div>
+                    </a>
+                    <a href="https://www.adobe.com/products/premiere.html" target="_blank" class="tech-card"
+                        data-glow="#9999FF" title="Premiere Pro">
+                        <div class="tech-card-inner">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <rect width="24" height="24" rx="4" fill="#00005B"/>
+                                <text x="5" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#9999FF">Pr</text>
+                            </svg>
+                            <span>Premiere</span>
+                        </div>
+                    </a>
+                    <a href="https://www.adobe.com/products/photoshop.html" target="_blank" class="tech-card"
+                        data-glow="#31A8FF" title="Photoshop">
+                        <div class="tech-card-inner">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <rect width="24" height="24" rx="4" fill="#001E36"/>
+                                <text x="5" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#31A8FF">Ps</text>
+                            </svg>
+                            <span>Photoshop</span>
+                        </div>
+                    </a>
+                    <a href="https://www.adobe.com/products/aftereffects.html" target="_blank" class="tech-card"
+                        data-glow="#9999FF" title="After Effects">
+                        <div class="tech-card-inner">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <rect width="24" height="24" rx="4" fill="#00005B"/>
+                                <text x="5" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#9999FF">Ae</text>
+                            </svg>
+                            <span>After Effects</span>
+                        </div>
+                    </a>
+                    <a href="https://www.adobe.com/products/animate.html" target="_blank" class="tech-card"
+                        data-glow="#FF6DD3" title="Animate">
+                        <div class="tech-card-inner">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <rect width="24" height="24" rx="4" fill="#1F0025"/>
+                                <text x="5" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#FF6DD3">An</text>
+                            </svg>
+                            <span>Animate</span>
+                        </div>
+                    </a>
+
+                </div><!-- /carousel-track -->
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════
+             01 / ABOUT
+        ══════════════════════════════════════ -->
+        <section id="about" class="section">
+            <div class="section-hologram" data-word="ABOUT"></div>
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <span class="section-label">01 / About</span>
+                        <h2 class="section-title">About Me</h2>
+                        <br>
+                        <p>I'm a <strong>B.Tech Computer Science</strong> student specialising in <strong>Artificial
+                                Intelligence and Machine Learning</strong> — driven by a deep passion for building
+                            systems that think, see, and solve.</p>
+                        <p>Living independently has made me disciplined, adaptable, and self-reliant. My curiosity
+                            doesn't stay within textbook boundaries — I continuously explore AI, Computer Vision, and
+                            emerging technologies to stay ahead of the curve.</p>
+                        <p>I believe good engineering is about impact — solutions that genuinely make a difference in
+                            people's lives.</p>
+                    </div>
+                    <div class="about-cards reveal delay-1">
+                        <div class="about-card glass">
+                            <span class="card-icon">🎓</span>
+                            <div>
+                                <h3>Education</h3>
+                                <p>B.Tech CSE — AI &amp; ML<br>Actively exploring beyond the curriculum</p>
+                            </div>
+                        </div>
+                        <div class="about-card glass">
+                            <span class="card-icon">🧠</span>
+                            <div>
+                                <h3>Focus Areas</h3>
+                                <p>AI/ML fundamentals, Computer Vision, DSA, Real-world applications</p>
+                            </div>
+                        </div>
+                        <div class="about-card glass">
+                            <span class="card-icon">⚡</span>
+                            <div>
+                                <h3>Drive</h3>
+                                <p>Independent, disciplined, and passionate about building things that matter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════
+             02 / SKILLS — Toolkit
+        ══════════════════════════════════════ -->
+        <section id="skills" class="section section-alt">
+            <div class="section-hologram" data-word="SKILLS"></div>
+            <div class="container">
+                <span class="section-label reveal">02 / Skills</span>
+                <h2 class="section-title reveal">My Toolkit</h2>
+                <p class="section-subtitle reveal delay-1">The technologies, frameworks, and creative tools I use to bring ideas to life.</p>
+
+                <div class="sk-grid reveal delay-2" id="toolkitGrid">
+
+                    <!-- Programming (Languages + Web) -->
+                    <div class="sk-category">
+                        <div class="sk-cat-header">
+                            <span class="sk-cat-icon">&lt;/&gt;</span>
+                            <span class="sk-cat-name">Programming</span>
+                        </div>
+                        <div class="sk-tags">
+                            <a href="https://isocpp.org/" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                                <span>C++</span>
+                            </a>
+                            <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                                <span>Python</span>
+                            </a>
+                            <a href="https://www.oracle.com/java/" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                                <span>Java</span>
+                            </a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                                <span>HTML</span>
+                            </a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                                <span>CSS</span>
+                            </a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+                                <span>JavaScript</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- AI / ML -->
+                    <div class="sk-category">
+                        <div class="sk-cat-header">
+                            <span class="sk-cat-icon">∑</span>
+                            <span class="sk-cat-name">AI / ML</span>
+                        </div>
+                        <div class="sk-tags">
+                            <a href="https://opencv.org/" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV">
+                                <span>OpenCV</span>
+                            </a>
+                            <a href="https://numpy.org/" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy">
+                                <span>NumPy</span>
+                            </a>
+                            <a href="https://developers.google.com/mediapipe" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <span class="sk-tag-emoji">🤖</span>
+                                <span>Mediapipe</span>
+                            </a>
+                            <a href="https://en.wikipedia.org/wiki/Computer_vision" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <span class="sk-tag-emoji">👁</span>
+                                <span>Computer Vision</span>
+                            </a>
+                            <a href="https://scikit-learn.org/stable/tutorial/basic/tutorial.html" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <span class="sk-tag-emoji">🧬</span>
+                                <span>ML Basics</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Core CS -->
+                    <div class="sk-category">
+                        <div class="sk-cat-header">
+                            <span class="sk-cat-icon">⬡</span>
+                            <span class="sk-cat-name">Core CS</span>
+                        </div>
+                        <div class="sk-tags">
+                            <a href="https://en.wikipedia.org/wiki/Data_structure" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <span class="sk-tag-emoji">🌲</span>
+                                <span>Data Structures</span>
+                            </a>
+                            <a href="https://en.wikipedia.org/wiki/Algorithm" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <span class="sk-tag-emoji">⚡</span>
+                                <span>Algorithms</span>
+                            </a>
+                            <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <span class="sk-tag-emoji">🗂</span>
+                                <span>OOP</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Security -->
+                    <div class="sk-category sk-security">
+                        <div class="sk-cat-header">
+                            <span class="sk-cat-icon sk-icon-hack">🔒</span>
+                            <span class="sk-cat-name">Security</span>
+                        </div>
+                        <div class="sk-tags">
+                            <a href="https://www.kali.org/" target="_blank" rel="noopener noreferrer" class="sk-tag sk-tag-hack">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Kali">
+                                <span>Kali Linux</span>
+                            </a>
+                            <a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/" target="_blank" rel="noopener noreferrer" class="sk-tag sk-tag-hack">
+                                <span class="sk-tag-emoji">🎯</span>
+                                <span>Ethical Hacking</span>
+                            </a>
+                            <a href="https://osintframework.com/" target="_blank" rel="noopener noreferrer" class="sk-tag sk-tag-hack">
+                                <span class="sk-tag-emoji">🔍</span>
+                                <span>Recon & OSINT</span>
+                            </a>
+                            <a href="https://www.comptia.org/content/guide/what-is-network-security" target="_blank" rel="noopener noreferrer" class="sk-tag sk-tag-hack">
+                                <span class="sk-tag-emoji">🛡</span>
+                                <span>Network Security</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="sk-category">
+                        <div class="sk-cat-header">
+                            <span class="sk-cat-icon">🔧</span>
+                            <span class="sk-cat-name">Tools</span>
+                        </div>
+                        <div class="sk-tags">
+                            <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                                <span>Git</span>
+                            </a>
+                            <a href="https://github.com/SaumyaChaturvedii" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="sk-invert">
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                                <span>VS Code</span>
+                            </a>
+                            <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+                                <span>Linux</span>
+                            </a>
+                            <a href="https://www.youtube.com/@saumyachaturvedii" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                                </svg>
+                                <span>YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Creative Suite -->
+                    <div class="sk-category">
+                        <div class="sk-cat-header">
+                            <span class="sk-cat-icon">🎬</span>
+                            <span class="sk-cat-name">Creative Suite</span>
+                        </div>
+                        <div class="sk-tags">
+                            <a href="https://www.adobe.com/products/premiere.html" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <rect width="24" height="24" rx="4" fill="#00005B"/>
+                                    <text x="4" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#9999FF">Pr</text>
+                                </svg>
+                                <span>Premiere Pro</span>
+                            </a>
+                            <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <rect width="24" height="24" rx="4" fill="#001E36"/>
+                                    <text x="4" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#31A8FF">Ps</text>
+                                </svg>
+                                <span>Photoshop</span>
+                            </a>
+                            <a href="https://www.adobe.com/products/aftereffects.html" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <rect width="24" height="24" rx="4" fill="#00005B"/>
+                                    <text x="4" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#9999FF">Ae</text>
+                                </svg>
+                                <span>After Effects</span>
+                            </a>
+                            <a href="https://www.adobe.com/products/animate.html" target="_blank" rel="noopener noreferrer" class="sk-tag">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <rect width="24" height="24" rx="4" fill="#1F0025"/>
+                                    <text x="4" y="17" font-family="Arial" font-weight="bold" font-size="12" fill="#FF6DD3">An</text>
+                                </svg>
+                                <span>Animate</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div><!-- /sk-grid -->
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════
+             03 / PROJECTS
+        ══════════════════════════════════════ -->
+        <section id="projects" class="section">
+            <div class="section-hologram" data-word="PROJECTS"></div>
+            <div class="container">
+                <span class="section-label reveal">03 / Projects</span>
+                <h2 class="section-title reveal">My Projects</h2>
+                <p class="project-section-copy reveal">A compact set of computer vision builds focused on safety systems, touchless control, and real-time movement analysis.</p>
+
+                <div class="project-grid" id="projectGrid">
+
+                    <!-- PROJECT 01 -->
+                    <article class="project-card project-card--alertx">
+                        <div class="project-stack" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="project-card-inner">
+                            <div class="project-face project-front">
+                                <div class="project-image">
+                                    <img loading="lazy" src="project1-new.jpg" alt="AlertX Drowsiness Detection Preview">
+                                    <div class="image-overlay"></div>
+                                    <div class="project-visual-meta">
+                                        <span class="project-number">01</span>
+                                        <span class="project-tag">Featured Build</span>
+                                    </div>
+                                    <div class="project-visual-strip">
+                                        <span>Vision AI</span>
+                                        <span>Hardware Loop</span>
+                                    </div>
+                                </div>
+                                <div class="project-info">
+                                    <p class="project-eyebrow">Driver safety intelligence</p>
+                                    <h3>AlertX: Drowsiness Detection</h3>
+                                    <p>A high-impact <strong>AI + hardware</strong> system that monitors driver alertness through eye-tracking and triggers physical safety alerts the moment fatigue patterns appear.</p>
+                                    <div class="project-tech">
+                                        <span>Python</span><span>OpenCV</span><span>Arduino</span><span>MediaPipe</span>
+                                    </div>
+                                    <div class="project-front-footer">
+                                        <span class="project-link-label">Computer vision case study</span>
+                                        <a href="https://github.com/SaumyaChaturvedii" target="_blank" rel="noopener noreferrer" class="project-link project-link--front">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-face project-back">
+                                <div class="project-back-head">
+                                    <span class="project-number">01</span>
+                                    <span class="project-back-kicker">System map</span>
+                                </div>
+                                <h3>AlertX: Drowsiness Detection</h3>
+                                <div class="project-insight-grid">
+                                    <div class="project-insight">
+                                        <span>Signal</span>
+                                        <strong>Eye aspect ratio and blink-state tracking</strong>
+                                    </div>
+                                    <div class="project-insight">
+                                        <span>Response</span>
+                                        <strong>Immediate buzzer and hardware alert pipeline</strong>
+                                    </div>
+                                    <div class="project-insight">
+                                        <span>Goal</span>
+                                        <strong>Catch fatigue patterns before they become a risk</strong>
+                                    </div>
+                                </div>
+                                <div class="project-features">
+                                    <div class="feature">
+                                        <div class="feature-dot"></div> Real-time eye monitoring
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-dot"></div> Arduino hardware integration
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-dot"></div> Intelligent safety failsafes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 02 -->
+                    <article class="project-card project-card--gesture">
+                        <div class="project-stack" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="project-card-inner">
+                            <div class="project-face project-front">
+                                <div class="project-image small">
+                                    <img loading="lazy" src="project3-new.jpg" alt="Hand Gesture Volume Control Preview">
+                                    <div class="image-overlay"></div>
+                                    <div class="project-visual-meta">
+                                        <span class="project-number">02</span>
+                                        <span class="project-tag">Interaction</span>
+                                    </div>
+                                    <div class="project-visual-strip">
+                                        <span>Gesture UI</span>
+                                        <span>Live Control</span>
+                                    </div>
+                                </div>
+                                <div class="project-info">
+                                    <p class="project-eyebrow">Touchless interaction</p>
+                                    <h3>Hand Gesture Volume Control</h3>
+                                    <p>Touchless volume controller using hand landmark detection. Pinch distance maps directly to system volume in real time, without hardware sliders or buttons.</p>
+                                    <div class="project-tech">
+                                        <span>Python</span><span>MediaPipe</span><span>NumPy</span><span>CV2</span>
+                                    </div>
+                                    <div class="project-front-footer">
+                                        <span class="project-link-label">Gesture-driven interface</span>
+                                        <a href="https://github.com/SaumyaChaturvedii" target="_blank" rel="noopener noreferrer" class="project-link project-link--front">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-face project-back">
+                                <div class="project-back-head">
+                                    <span class="project-number">02</span>
+                                    <span class="project-back-kicker">System notes</span>
+                                </div>
+                                <h3>Hand Gesture Volume Control</h3>
+                                <div class="project-insight-grid">
+                                    <div class="project-insight">
+                                        <span>Gesture</span>
+                                        <strong>Pinch distance becomes a smooth volume range</strong>
+                                    </div>
+                                    <div class="project-insight">
+                                        <span>Flow</span>
+                                        <strong>Camera-only control with no physical input layer</strong>
+                                    </div>
+                                </div>
+                                <div class="project-features">
+                                    <div class="feature">
+                                        <div class="feature-dot"></div> Landmark tracking tuned for quick finger response
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-dot"></div> Smooth system-volume mapping for natural control
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 03 -->
+                    <article class="project-card project-card--pose">
+                        <div class="project-stack" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="project-card-inner">
+                            <div class="project-face project-front">
+                                <div class="project-image small">
+                                    <img loading="lazy" src="project2-new.jpg" alt="AI Pose Classifier Preview">
+                                    <div class="image-overlay"></div>
+                                    <div class="project-visual-meta">
+                                        <span class="project-number">03</span>
+                                        <span class="project-tag">Movement AI</span>
+                                    </div>
+                                    <div class="project-visual-strip">
+                                        <span>Pose Logic</span>
+                                        <span>Live Feedback</span>
+                                    </div>
+                                </div>
+                                <div class="project-info">
+                                    <p class="project-eyebrow">Workout posture feedback</p>
+                                    <h3>AI Pose Classifier</h3>
+                                    <p>Exercise form classifier using skeleton joint angles. It delivers real-time posture feedback to help users train with cleaner movement and lower injury risk.</p>
+                                    <div class="project-tech">
+                                        <span>Python</span><span>OpenCV</span><span>MediaPipe</span><span>ML</span>
+                                    </div>
+                                    <div class="project-front-footer">
+                                        <span class="project-link-label">Motion analysis build</span>
+                                        <a href="https://github.com/SaumyaChaturvedii" target="_blank" rel="noopener noreferrer" class="project-link project-link--front">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-face project-back">
+                                <div class="project-back-head">
+                                    <span class="project-number">03</span>
+                                    <span class="project-back-kicker">Feedback loop</span>
+                                </div>
+                                <h3>AI Pose Classifier</h3>
+                                <div class="project-insight-grid">
+                                    <div class="project-insight">
+                                        <span>Pose model</span>
+                                        <strong>Joint-angle logic distinguishes exercise form</strong>
+                                    </div>
+                                    <div class="project-insight">
+                                        <span>Feedback</span>
+                                        <strong>Flags posture drift while movement is happening</strong>
+                                    </div>
+                                </div>
+                                <div class="project-features">
+                                    <div class="feature">
+                                        <div class="feature-dot"></div> Live pose stream from a standard webcam
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-dot"></div> Form-aware feedback designed for safer reps
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════
+             04 / JOURNEY
+        ══════════════════════════════════════ -->
+        <section id="journey" class="section section-alt">
+            <div class="section-hologram" data-word="JOURNEY"></div>
+            <div class="container">
+                <span class="section-label reveal">04 / Journey</span>
+                <h2 class="section-title reveal">Journey</h2>
+
+                <div class="timeline" id="timelineContainer">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-progress" id="timelineProgress"></div>
+                    <div class="timeline-glow" id="timelineGlow"></div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <span class="timeline-date">Late 2024</span>
+                            <h3>Foundation Phase</h3>
+                            <p>Began <strong>B.Tech in CSE (AI & ML)</strong> at Haridwar University. Focused on mastering programming fundamentals with C, building logical depth, and exploring the vast landscape of technology.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <span class="timeline-date">Early 2025</span>
+                            <h3>Structured Growth</h3>
+                            <p>Transitioned from tutorials to a <strong>hands-on building mindset</strong>. Deepened expertise in Java and OOPs, developing a holistic understanding of how different programming fields interconnect.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <span class="timeline-date">2026</span>
+                            <h3>Build & Execution</h3>
+                            <p>Engineered <strong>AlertX</strong> — a Driver Drowsiness Detection System. Leveraged Python, OpenCV, and MediaPipe integrated with Arduino to bridge AI with real-world hardware impact.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <span class="timeline-date">Present</span>
+                            <h3>Current Focus</h3>
+                            <p>Strengthening <strong>DSA (C++)</strong> for complex problem solving, while building scalable <strong>Web Applications</strong> and architecting intelligent <strong>AI/ML systems</strong> for the future.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════
+             05 / CREATIVE — Beyond the Code
+        ══════════════════════════════════════ -->
+        <section id="creative" class="section">
+            <div class="section-hologram" data-word="CREATIVE"></div>
+            <div class="container">
+                <span class="section-label reveal">05 / Creative</span>
+                <h2 class="section-title reveal">Creative</h2>
+                <p class="section-subtitle reveal delay-1">Life is more than algorithms.</p>
+
+                <div class="creative-grid reveal delay-2">
+
+                    <!-- ACTING — spotlight sweep on hover -->
+                    <div class="creative-card glass cc-acting">
+                        <div class="cc-spotlight"></div>
+                        <div class="cc-icon-wrap"><span class="cc-icon">🎭</span></div>
+                        <h3>Acting</h3>
+                        <p>Performance, timing, and presence sharpen how I tell stories and connect with people.</p>
+                        <span class="cc-tag">On Stage</span>
+                    </div>
+
+                    <!-- DANCING — music bars + bounce -->
+                    <div class="creative-card glass cc-dancing">
+                        <div class="cc-music-bars">
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                        <div class="cc-icon-wrap"><span class="cc-icon">💃</span></div>
+                        <h3>Dancing</h3>
+                        <p>Rhythm, control, and expression turn movement into a second language.</p>
+                        <span class="cc-tag">In Rhythm</span>
+                    </div>
+
+                    <!-- PAINTING — brush stroke -->
+                    <div class="creative-card glass cc-painting">
+                        <div class="cc-brush-stroke"></div>
+                        <div class="cc-icon-wrap"><span class="cc-icon">🎨</span></div>
+                        <h3>Painting</h3>
+                        <p>Layering colour and texture helps me slow down and turn ideas into form.</p>
+                        <span class="cc-tag">On Canvas</span>
+                    </div>
+
+                    <!-- EXPLORING — rotating compass -->
+                    <div class="creative-card glass cc-exploring">
+                        <svg class="cc-compass" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)"
+                            stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <polygon points="12,2 14,12 12,16 10,12" fill="rgba(255,255,255,0.4)" stroke="none" />
+                            <circle cx="12" cy="12" r="1.5" fill="rgba(255,255,255,0.8)" stroke="none" />
+                        </svg>
+                        <div class="cc-icon-wrap"><span class="cc-icon">🌍</span></div>
+                        <h3>Exploring</h3>
+                        <p>New places reset perspective and feed the curiosity behind everything I build.</p>
+                        <span class="cc-tag">Always Moving</span>
+                    </div>
+
+                    <!-- VIDEO EDITING — filmstrip + play -->
+                    <div class="creative-card glass cc-video">
+                        <div class="cc-filmstrip">
+                            <div class="cc-filmstrip-track">
+                                <span></span><span></span><span></span><span></span><span></span>
+                                <span></span><span></span><span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="cc-play-btn" aria-hidden="true">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                                <path d="M2 1l9 5-9 5V1z" />
+                            </svg>
+                        </div>
+                        <div class="cc-icon-wrap"><span class="cc-icon">🎬</span></div>
+                        <h3>Video Editing</h3>
+                        <p>I like shaping raw clips into sharp, paced, story-driven visuals.</p>
+                        <span class="cc-tag">In the Cut</span>
+                    </div>
+
+                    <!-- PHOTO EDITING — viewfinder + shutter flash -->
+                    <div class="creative-card glass cc-photo" id="ccPhotoCard">
+                        <div class="cc-viewfinder">
+                            <div class="cc-vf-corner tl"></div>
+                            <div class="cc-vf-corner tr"></div>
+                            <div class="cc-vf-corner bl"></div>
+                            <div class="cc-vf-corner br"></div>
+                            <div class="cc-vf-crosshair"></div>
+                        </div>
+                        <div class="cc-shutter" id="ccShutter"></div>
+                        <div class="cc-icon-wrap"><span class="cc-icon">📸</span></div>
+                        <h3>Photo Editing</h3>
+                        <p>Framing and grading help ordinary moments feel cinematic and intentional.</p>
+                        <span class="cc-tag">Click to Shoot</span>
+                    </div>
+
+                </div><!-- /creative-grid -->
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════
+             06 / CONTACT
+        ══════════════════════════════════════ -->
+        <section id="contact" class="section section-alt">
+            <div class="section-hologram" data-word="CONTACT"></div>
+            <div class="container">
+                <span class="section-label reveal">06 / Contact</span>
+                <h2 class="section-title reveal">Contact</h2>
+
+                <div class="contact-layout">
+                    <div class="reveal delay-1">
+                        <p class="contact-intro">Open to collaborations, internship opportunities, AI discussions — or
+                            just an interesting conversation. Let's build something together.</p>
+                        <div class="contact-links">
+                            <a href="https://github.com/SaumyaChaturvedii" target="_blank" class="contact-item glass">
+                                <div class="contact-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="contact-type">GitHub</span>
+                                    <span class="contact-value">github.com/SaumyaChaturvedii</span>
+                                </div>
+                            </a>
+                            <a href="https://linkedin.com/in/saumya-chaturvedi" target="_blank"
+                                class="contact-item glass">
+                                <div class="contact-icon">in</div>
+                                <div>
+                                    <span class="contact-type">LinkedIn</span>
+                                    <span class="contact-value">Connect with me</span>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/@saumya.chaturvedii" target="_blank"
+                                class="contact-item glass">
+                                <div class="contact-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="contact-type">YouTube</span>
+                                    <span class="contact-value">@saumya.chaturvedii</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form glass reveal delay-2" id="contactForm" action="https://formsubmit.co/saumya.chaturvedii01@gmail.com" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_subject" value="New Portfolio Contact Message!">
+                        <h3>Send a Message</h3>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="from_name" placeholder="Your name" aria-label="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="reply_to" placeholder="your@email.com" aria-label="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" aria-label="Your Message Context"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn" id="submitBtn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loader" aria-hidden="true"></span>
+                        </button>
+                        <div class="form-status" id="formStatus" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container"
+                style="display:flex;align-items:center;justify-content:space-between;padding-top:28px;padding-bottom:28px;border-top:1px solid rgba(255,255,255,0.06)">
+                <span style="font-size:1.2rem;font-weight:900;letter-spacing:-0.5px">SC.</span>
+                <p style="font-size:0.8rem;color:var(--grey-3);font-family:var(--mono)">© 2026 Saumya Chaturvedi — Building
+                    impactful AI solutions.</p>
+                <a href="#home" style="font-size:1rem;color:var(--grey-3);transition:color 0.2s"
+                    aria-label="Back to top">↑</a>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js?v=5" defer></script>
+</body>
+
+</html>
